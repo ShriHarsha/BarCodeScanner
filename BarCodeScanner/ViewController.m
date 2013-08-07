@@ -2,9 +2,8 @@
 //  ViewController.m
 //  BarCodeScanner
 //
-//  Created by user on 29/07/13.
+//  Created by ShriHarsha on 29/07/13.
 //  Copyright (c) 2013 Alitimetrik. All rights reserved.
-//  Commit Test
 
 #import "ViewController.h"
 #import "XMLWriter.h"
