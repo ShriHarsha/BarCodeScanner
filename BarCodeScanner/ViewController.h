@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZBarSDK.h"
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController <ZBarReaderDelegate,UIPickerViewDelegate,UIPickerViewDataSource>
+
+
+@property (weak, nonatomic) IBOutlet UIImageView *resultImage;
+@property (weak, nonatomic) IBOutlet UITextView *resultText;
+
+- (IBAction) scanButtonTapped;
 
 @end
