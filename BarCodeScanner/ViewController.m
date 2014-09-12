@@ -87,7 +87,7 @@
 
 - (IBAction) scanButtonTapped {
 
-    NSLog(@"TBD: scan barcode here...");
+    NSLog(@"TBD: scan barcode here...!");
     
     // ADD: present a barcode reader that scans from the camera feed
     ZBarReaderViewController *reader = [ZBarReaderViewController new];
