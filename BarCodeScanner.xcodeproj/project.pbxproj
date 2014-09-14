@@ -348,6 +348,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Alitimetrik;
+				TargetAttributes = {
+					CE25C58D17A64A470021FAEC = {
+						DevelopmentTeam = 2DL4PX587D;
+					};
+				};
 			};
 			buildConfigurationList = CE25C58917A64A470021FAEC /* Build configuration list for PBXProject "BarCodeScanner" */;
 			compatibilityVersion = "Xcode 3.2";
