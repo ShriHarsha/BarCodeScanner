@@ -499,8 +499,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Synova, Inc. (2DL4PX587D)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Synova, Inc. (2DL4PX587D)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shri Harsha (MT4Y63D3NV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shri Harsha (MT4Y63D3NV)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -534,8 +534,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Synova, Inc. (2DL4PX587D)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Synova, Inc. (2DL4PX587D)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shri Harsha (MT4Y63D3NV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shri Harsha (MT4Y63D3NV)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -555,7 +555,7 @@
 		CE25C5CA17A64A470021FAEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Synova, Inc. (2DL4PX587D)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shri Harsha (MT4Y63D3NV)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BarCodeScanner/BarCodeScanner-Prefix.pch";
 				INFOPLIST_FILE = "BarCodeScanner/BarCodeScanner-Info.plist";
@@ -576,8 +576,8 @@
 		CE25C5CB17A64A470021FAEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Synova, Inc. (2DL4PX587D)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Synova, Inc. (2DL4PX587D)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shri Harsha (MT4Y63D3NV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shri Harsha (MT4Y63D3NV)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BarCodeScanner/BarCodeScanner-Prefix.pch";
 				INFOPLIST_FILE = "BarCodeScanner/BarCodeScanner-Info.plist";
