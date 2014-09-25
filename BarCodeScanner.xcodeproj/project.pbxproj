@@ -16,21 +16,11 @@
 		CE25C5AB17A64A470021FAEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE25C5AA17A64A470021FAEC /* ViewController.m */; };
 		CE25C5AE17A64A470021FAEC /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE25C5AC17A64A470021FAEC /* ViewController_iPhone.xib */; };
 		CE25C5B117A64A470021FAEC /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE25C5AF17A64A470021FAEC /* ViewController_iPad.xib */; };
-		CE25C5B917A64A470021FAEC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE25C5B817A64A470021FAEC /* SenTestingKit.framework */; };
-		CE25C5BA17A64A470021FAEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE25C59117A64A470021FAEC /* UIKit.framework */; };
-		CE25C5BB17A64A470021FAEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE25C59317A64A470021FAEC /* Foundation.framework */; };
-		CE25C5C317A64A470021FAEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE25C5C117A64A470021FAEC /* InfoPlist.strings */; };
-		CE25C5C617A64A470021FAEC /* BarCodeScannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE25C5C517A64A470021FAEC /* BarCodeScannerTests.m */; };
 		CE25C5EE17A6557B0021FAEC /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE25C5E817A6557B0021FAEC /* libzbar.a */; };
-		CE25C5EF17A6557B0021FAEC /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE25C5E817A6557B0021FAEC /* libzbar.a */; };
 		CE25C5F017A6557B0021FAEC /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = CE25C5EA17A6557B0021FAEC /* zbar-back.png */; };
-		CE25C5F117A6557B0021FAEC /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = CE25C5EA17A6557B0021FAEC /* zbar-back.png */; };
 		CE25C5F217A6557B0021FAEC /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = CE25C5EB17A6557B0021FAEC /* zbar-help.html */; };
-		CE25C5F317A6557B0021FAEC /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = CE25C5EB17A6557B0021FAEC /* zbar-help.html */; };
 		CE25C5F417A6557B0021FAEC /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = CE25C5EC17A6557B0021FAEC /* zbar-helpicons.png */; };
-		CE25C5F517A6557B0021FAEC /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = CE25C5EC17A6557B0021FAEC /* zbar-helpicons.png */; };
 		CE25C5F617A6557B0021FAEC /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = CE25C5ED17A6557B0021FAEC /* zbar-samples.png */; };
-		CE25C5F717A6557B0021FAEC /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = CE25C5ED17A6557B0021FAEC /* zbar-samples.png */; };
 		CE25C60417A65CA60021FAEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE25C59317A64A470021FAEC /* Foundation.framework */; };
 		CE25C60517A65CAC0021FAEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE25C59517A64A470021FAEC /* CoreGraphics.framework */; };
 		CE25C60617A65CB20021FAEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE25C59117A64A470021FAEC /* UIKit.framework */; };
@@ -40,18 +30,7 @@
 		CE25C60A17A65CCF0021FAEC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE25C5FE17A6575E0021FAEC /* QuartzCore.framework */; };
 		CE25C60B17A65CD60021FAEC /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE25C60217A657900021FAEC /* libiconv.dylib */; };
 		CE38648617AA7FE3001AB9BF /* XMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38648517AA7FE3001AB9BF /* XMLWriter.m */; };
-		CE38648717AA7FE3001AB9BF /* XMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38648517AA7FE3001AB9BF /* XMLWriter.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CE25C5BC17A64A470021FAEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE25C58617A64A470021FAEC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CE25C58D17A64A470021FAEC;
-			remoteInfo = BarCodeScanner;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CE25C58E17A64A470021FAEC /* BarCodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarCodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,7 +50,6 @@
 		CE25C5AA17A64A470021FAEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE25C5AD17A64A470021FAEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		CE25C5B017A64A470021FAEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
-		CE25C5B717A64A470021FAEC /* BarCodeScannerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarCodeScannerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE25C5B817A64A470021FAEC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		CE25C5C017A64A470021FAEC /* BarCodeScannerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarCodeScannerTests-Info.plist"; sourceTree = "<group>"; };
 		CE25C5C217A64A470021FAEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -129,17 +107,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE25C5B317A64A470021FAEC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE25C5B917A64A470021FAEC /* SenTestingKit.framework in Frameworks */,
-				CE25C5BA17A64A470021FAEC /* UIKit.framework in Frameworks */,
-				CE25C5BB17A64A470021FAEC /* Foundation.framework in Frameworks */,
-				CE25C5EF17A6557B0021FAEC /* libzbar.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -163,7 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				CE25C58E17A64A470021FAEC /* BarCodeScanner.app */,
-				CE25C5B717A64A470021FAEC /* BarCodeScannerTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -321,25 +287,6 @@
 			productReference = CE25C58E17A64A470021FAEC /* BarCodeScanner.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE25C5B617A64A470021FAEC /* BarCodeScannerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE25C5CC17A64A470021FAEC /* Build configuration list for PBXNativeTarget "BarCodeScannerTests" */;
-			buildPhases = (
-				CE25C5B217A64A470021FAEC /* Sources */,
-				CE25C5B317A64A470021FAEC /* Frameworks */,
-				CE25C5B417A64A470021FAEC /* Resources */,
-				CE25C5B517A64A470021FAEC /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CE25C5BD17A64A470021FAEC /* PBXTargetDependency */,
-			);
-			name = BarCodeScannerTests;
-			productName = BarCodeScannerTests;
-			productReference = CE25C5B717A64A470021FAEC /* BarCodeScannerTests.octest */;
-			productType = "com.apple.product-type.bundle.ocunit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -367,7 +314,6 @@
 			projectRoot = "";
 			targets = (
 				CE25C58D17A64A470021FAEC /* BarCodeScanner */,
-				CE25C5B617A64A470021FAEC /* BarCodeScannerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -390,35 +336,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE25C5B417A64A470021FAEC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE25C5C317A64A470021FAEC /* InfoPlist.strings in Resources */,
-				CE25C5F117A6557B0021FAEC /* zbar-back.png in Resources */,
-				CE25C5F317A6557B0021FAEC /* zbar-help.html in Resources */,
-				CE25C5F517A6557B0021FAEC /* zbar-helpicons.png in Resources */,
-				CE25C5F717A6557B0021FAEC /* zbar-samples.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		CE25C5B517A64A470021FAEC /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE25C58A17A64A470021FAEC /* Sources */ = {
@@ -432,24 +350,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE25C5B217A64A470021FAEC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE25C5C617A64A470021FAEC /* BarCodeScannerTests.m in Sources */,
-				CE38648717AA7FE3001AB9BF /* XMLWriter.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CE25C5BD17A64A470021FAEC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CE25C58D17A64A470021FAEC /* BarCodeScanner */;
-			targetProxy = CE25C5BC17A64A470021FAEC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CE25C59A17A64A470021FAEC /* InfoPlist.strings */ = {
@@ -595,50 +496,6 @@
 			};
 			name = Release;
 		};
-		CE25C5CD17A64A470021FAEC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BarCodeScanner.app/BarCodeScanner";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BarCodeScanner/BarCodeScanner-Prefix.pch";
-				INFOPLIST_FILE = "BarCodeScannerTests/BarCodeScannerTests-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/BarCodeScanner/ZBarSDK\"",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				VALID_ARCHS = armv7;
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		CE25C5CE17A64A470021FAEC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BarCodeScanner.app/BarCodeScanner";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BarCodeScanner/BarCodeScanner-Prefix.pch";
-				INFOPLIST_FILE = "BarCodeScannerTests/BarCodeScannerTests-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/BarCodeScanner/ZBarSDK\"",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				VALID_ARCHS = armv7;
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -656,15 +513,6 @@
 			buildConfigurations = (
 				CE25C5CA17A64A470021FAEC /* Debug */,
 				CE25C5CB17A64A470021FAEC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE25C5CC17A64A470021FAEC /* Build configuration list for PBXNativeTarget "BarCodeScannerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE25C5CD17A64A470021FAEC /* Debug */,
-				CE25C5CE17A64A470021FAEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
