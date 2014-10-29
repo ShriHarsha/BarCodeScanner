@@ -416,7 +416,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = NO;
-				PROVISIONING_PROFILE = "d7790b18-59fc-44ef-a132-697f102c393a";
+				PROVISIONING_PROFILE = "880ab3eb-83a0-4a05-a0e1-d3ce1691933a";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "i386  arm64 armv7 armv7s";
@@ -445,7 +445,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "d7790b18-59fc-44ef-a132-697f102c393a";
+				PROVISIONING_PROFILE = "880ab3eb-83a0-4a05-a0e1-d3ce1691933a";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -456,7 +456,7 @@
 		CE25C5CA17A64A470021FAEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Synova, Inc. (2DL4PX587D)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BarCodeScanner/BarCodeScanner-Prefix.pch";
 				INFOPLIST_FILE = "BarCodeScanner/BarCodeScanner-Info.plist";
@@ -467,7 +467,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d7790b18-59fc-44ef-a132-697f102c393a";
+				PROVISIONING_PROFILE = "880ab3eb-83a0-4a05-a0e1-d3ce1691933a";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "i386 armv7";
 				WRAPPER_EXTENSION = app;
@@ -477,7 +477,7 @@
 		CE25C5CB17A64A470021FAEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Synova, Inc. (2DL4PX587D)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Synova, Inc. (2DL4PX587D)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BarCodeScanner/BarCodeScanner-Prefix.pch";
@@ -489,7 +489,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d7790b18-59fc-44ef-a132-697f102c393a";
+				PROVISIONING_PROFILE = "880ab3eb-83a0-4a05-a0e1-d3ce1691933a";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "i386 armv7";
 				WRAPPER_EXTENSION = app;
